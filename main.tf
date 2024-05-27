@@ -53,8 +53,6 @@ module "vpc" {
   default_route_table_tags       = { DefaultRouteTable = true }
   enable_dns_hostnames           = true
   enable_dns_support             = true
-  enable_classiclink             = false
-  enable_classiclink_dns_support = false
   create_egress_only_igw         = true
   create_igw                     = true #for public subnets
   enable_nat_gateway             = false
